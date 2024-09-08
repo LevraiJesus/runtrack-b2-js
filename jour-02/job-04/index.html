@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" ></script>
+</head>
+<body>
+    <form id="form-add-student">
+        <label for="student-mail">Email:</label>
+        <input type="email" id="student-mail" name="student-mail" required>
+    
+        <label for="student-fullname">Full Name:</label>
+        <input type="text" id="student-fullname" name="student-fullname" required>
+    
+        <label for="student-gender">Gender:</label>
+        <select id="student-gender" name="student-gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    
+        <label for="student-grade">Grade:</label>
+        <select id="student-grade" name="student-grade" required>
+            <option value="1">Bachelor 1</option>
+            <option value="2">Bachelor 2</option>
+            <option value="3">Bachelor 3</option>
+        </select>
+    
+        <label for="student-birthdate">Birthdate:</label>
+        <input type="date" id="student-birthdate" name="student-birthdate" required>
+    
+        <input type="submit" id="submit-btn" value="Register">
+    </form>
+    
+</body>
+</html>
